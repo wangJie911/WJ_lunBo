@@ -15,6 +15,7 @@
 		489F7C2D21D31EA50004898F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 489F7C2C21D31EA50004898F /* main.m */; };
 		489F7C3721D31EA60004898F /* WJ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 489F7C3621D31EA60004898F /* WJ____Tests.m */; };
 		489F7C4221D31EA60004898F /* WJ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 489F7C4121D31EA60004898F /* WJ____UITests.m */; };
+		489F7C5121D31F0D0004898F /* WJWheelPlantView.m in Sources */ = {isa = PBXBuildFile; fileRef = 489F7C5021D31F0D0004898F /* WJWheelPlantView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		489F7C3D21D31EA60004898F /* WJ-轮播图UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WJ-轮播图UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		489F7C4121D31EA60004898F /* WJ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WJ____UITests.m"; sourceTree = "<group>"; };
 		489F7C4321D31EA60004898F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		489F7C4F21D31F0D0004898F /* WJWheelPlantView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJWheelPlantView.h; sourceTree = "<group>"; };
+		489F7C5021D31F0D0004898F /* WJWheelPlantView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJWheelPlantView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				489F7C1D21D31EA00004898F /* AppDelegate.h */,
 				489F7C1E21D31EA00004898F /* AppDelegate.m */,
+				489F7C4F21D31F0D0004898F /* WJWheelPlantView.h */,
+				489F7C5021D31F0D0004898F /* WJWheelPlantView.m */,
 				489F7C2021D31EA00004898F /* ViewController.h */,
 				489F7C2121D31EA00004898F /* ViewController.m */,
 				489F7C2321D31EA00004898F /* Main.storyboard */,
@@ -263,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				489F7C2221D31EA00004898F /* ViewController.m in Sources */,
+				489F7C5121D31F0D0004898F /* WJWheelPlantView.m in Sources */,
 				489F7C2D21D31EA50004898F /* main.m in Sources */,
 				489F7C1F21D31EA00004898F /* AppDelegate.m in Sources */,
 			);
@@ -438,6 +444,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H7AJ9E85N9;
 				INFOPLIST_FILE = "WJ-轮播图/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +462,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H7AJ9E85N9;
 				INFOPLIST_FILE = "WJ-轮播图/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
